@@ -1,3 +1,5 @@
 wandb/*
 *.pyc
 segformer/wandb/*
+segformer/training/preprocessed_images/*
+segformer/old.ipynb
