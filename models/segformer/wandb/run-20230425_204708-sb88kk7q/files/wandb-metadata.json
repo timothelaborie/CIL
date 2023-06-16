@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.19042-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2023-04-25T18:47:08.977975",
+    "startedAt": "2023-04-25T18:47:08.180605",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/timothelaborie/CIL.git",
+        "commit": "806ba4cbcbdadf62cdf0169ba3938681b14ba339"
+    },
+    "email": "tlaborie@student.ethz.ch",
+    "root": "C:/Users/Timothe/Documents/eth4/cil/github/CIL",
+    "host": "Timothe-Desktop",
+    "username": "Timothe",
+    "executable": "c:\\ProgramData\\Anaconda3\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 6,
+    "cpu_freq": {
+        "current": 4000.0,
+        "min": 0.0,
+        "max": 4000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4000.0,
+            "min": 0.0,
+            "max": 4000.0
+        }
+    ],
+    "disk": {
+        "total": 931.4619102478027,
+        "used": 789.0582275390625
+    },
+    "gpu": "NVIDIA GeForce GTX 1080",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1080",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 31.93299102783203
+    }
+}
