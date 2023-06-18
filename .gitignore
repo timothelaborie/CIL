@@ -2,3 +2,5 @@ wandb/*
 *.pyc
 segformer/wandb/*
 data/massachusetts_roads/tiff/*
+models/segformer/other models/*
+models/segformer/segformer.pth
