@@ -1,6 +1,9 @@
 wandb/*
 *.pyc
 segformer/wandb/*
-data/massachusetts_roads/tiff/*
+
+data/deepglobe-road-extraction-dataset/*
+data/massachusetts-roads-dataset/*
+
 models/segformer/other models/*
 models/segformer/segformer.pth
