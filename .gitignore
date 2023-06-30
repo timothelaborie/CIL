@@ -7,3 +7,5 @@ data/massachusetts-roads-dataset/*
 
 models/segformer/other models/*
 models/segformer/segformer.pth
+data/googlemaps-boston-losangeles-suburbs/api_key.npy
+models/segformer/model_combined_2.pth
