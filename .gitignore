@@ -12,3 +12,5 @@ models/segformer/model_combined_2.pth
 models/segformer/model_googlemaps_2.pth
 models/segformer/model_train_17_0.92717.pth
 experiments.ipynb
+models/segformer/model_train_e-4.pth
+models/segformer/model_train_e-6_0.93086.pth
