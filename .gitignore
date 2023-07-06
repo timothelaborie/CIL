@@ -4,6 +4,8 @@ segformer/wandb/*
 
 data/deepglobe-road-extraction-dataset/*
 data/massachusetts-roads-dataset/*
+data/roadsegmentation-boston-losangeles/images/*
+data/roadsegmentation-boston-losangeles/groundtruth/*
 
 models/segformer/other models/*
 models/segformer/segformer.pth
@@ -14,3 +16,5 @@ models/segformer/model_train_17_0.92717.pth
 experiments.ipynb
 models/segformer/model_train_e-4.pth
 models/segformer/model_train_e-6_0.93086.pth
+data/roadsegmentation-boston-losangeles/api_key.npy
+models/stuff/*
