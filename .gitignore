@@ -18,3 +18,4 @@ models/segformer/model_train_e-4.pth
 models/segformer/model_train_e-6_0.93086.pth
 data/roadsegmentation-boston-losangeles/api_key.npy
 models/stuff/*
+models/upernet/upernet_train_e-6.pth
