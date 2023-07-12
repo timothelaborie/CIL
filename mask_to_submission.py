@@ -13,7 +13,7 @@ FLAGS = flags.FLAGS
 flags.DEFINE_string(
     "submission_filename", "submission.csv", "The output csv for the submission.")
 flags.DEFINE_string(
-    "base_dir", "data/ethz-cil-road-segmentation-2023/test/pred", "The directory with the predicted masks.")
+    "base_dir", "data/ethz-cil-road-segmentation-2023/test/pred_oneformer", "The directory with the predicted masks.")
 
 foreground_threshold = 0.3 # percentage of pixels of val 255 required to assign a foreground label to a patch
 
