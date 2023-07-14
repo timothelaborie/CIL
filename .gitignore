@@ -21,3 +21,6 @@ models/stuff/*
 models/upernet/upernet_train_e-6.pth
 models/segformer/segformer_e-5.pth
 data/ethz-cil-road-segmentation-2023/test/pred/*
+models/oneformer/stuff.ipynb
+models/oneformer/main_.ipynb
+models/oneformer/ade20k.jpeg
