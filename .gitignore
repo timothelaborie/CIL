@@ -24,3 +24,4 @@ data/ethz-cil-road-segmentation-2023/test/pred/*
 models/oneformer/stuff.ipynb
 models/oneformer/main_.ipynb
 models/oneformer/ade20k.jpeg
+.DS_Store
