@@ -25,3 +25,4 @@ models/oneformer/stuff.ipynb
 models/oneformer/main_.ipynb
 models/oneformer/ade20k.jpeg
 .DS_Store
+models/upernet-convnext/convnext2_e-5.pth
