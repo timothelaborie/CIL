@@ -26,3 +26,5 @@ models/oneformer/main_.ipynb
 models/oneformer/ade20k.jpeg
 .DS_Store
 models/upernet-convnext/convnext2_e-5.pth
+models/indep_patch_conv_cls/test_preds/*
+data/ethz-cil-road-segmentation-2023/test/pred_indep/*
