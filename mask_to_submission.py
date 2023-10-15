@@ -10,12 +10,10 @@ from absl import app, flags
 
 FLAGS = flags.FLAGS
 
-name = "upernet2"
-
 flags.DEFINE_string(
-    "submission_filename", f"ensemble/{name}.csv", "The output csv for the submission.")
+    "submission_filename", "test_preds.csv", "The output csv for the submission.")
 flags.DEFINE_string(
-    "base_dir", f"data/ethz-cil-road-segmentation-2023/test/pred_{name}", "The directory with the predicted masks.")
+    "base_dir", "test_preds", "The directory with the predicted masks.")
 
 foreground_threshold = 0.25 # percentage of pixels of val 255 required to assign a foreground label to a patch
 
@@ -31,7 +29,7 @@ def patch_to_label(patch):
 
 def mask_to_submission_strings(image_filename, mask_dir=None):
     """Reads a single image and outputs the strings that should go into the submission file"""
-    img_number = int(re.search(r"\d+", image_filename.replace("-2023","").replace("upernet2","")).group(0))
+    img_number = int(re.search(r"\d+", image_filename).group(0))
     im = PIL.Image.open(image_filename)
     im_arr = np.asarray(im)
     if len(im_arr.shape) > 2:
@@ -50,7 +48,7 @@ def mask_to_submission_strings(image_filename, mask_dir=None):
 
     if mask_dir:
         save_mask_as_img(mask, os.path.join(mask_dir, "mask_" + image_filename.split("/")[-1]))
-    
+
 
 def save_mask_as_img(img_arr, mask_filename):
     img = PIL.Image.fromarray(img_arr)
